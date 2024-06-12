@@ -609,13 +609,6 @@ for jedi in jedis:
     species = jedi.get("species")
     if species in ["Human", "Twi'lek"]:
         print(jedi["name"])
-    
-print("")
-print("Punto D")
-for jedi in jedis:
-    species = jedi["species"]
-    if species == "Human" or species == "Twi'lek":
-        print(jedi["name"])
 
 print("")
 print("Punto E")
